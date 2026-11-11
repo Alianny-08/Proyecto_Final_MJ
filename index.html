@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defensa de Proyecto - UPTAEB</title>
+    <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- Selectores invisibles para cambiar de pestañas principales -->
+    <input type="radio" id="tab1" name="defensa-tabs" checked>
+    <input type="radio" id="tab2" name="defensa-tabs">
+    <input type="radio" id="tab3" name="defensa-tabs">
+    <input type="radio" id="tab4" name="defensa-tabs">
+    <input type="radio" id="tab5" name="defensa-tabs">
+
+    <header>
+        <div class="header-content">
+            <h1>SISTEMA DE FLUJO DE EFECTIVO PARA EL EMPRENDIMIENTO MJ</h1>
+            <div class="integrantes-container">
+                <p class="titulo-integrantes"><strong>Integrantes:</strong></p>
+                <ul class="lista-integrantes">
+                    <li>Francismar Romero</li>
+                    <li>Jairo Saavedra</li>
+                    <li>Joengris Malvacia</li>
+                    <li>Maria Jose Rojas</li>
+                </ul>
+            </div>
+            <p class="institucion">PNF EN CONTADURÍA PÚBLICA</p>
+            <p class="universidad">UPTAEB</p>
+        </div>
+    </header>
+
+    <nav>
+        <label for="tab1" class="tab-label">📊 Infografía</label>
+        <label for="tab2" class="tab-label">📄 Informe</label>
+        <label for="tab3" class="tab-label">🤝 Visitas y Asesorías</label>
+        <label for="tab4" class="tab-label">📦 Entrega del Producto</label>
+        <label for="tab5" class="tab-label">🚀 Producto Final</label>
+    </nav>
+
+    <main>
+        <!-- Módulo 1: Infografía -->
+        <section id="infografia" class="modulo">
+            <h2>Infografía del Proyecto</h2>
+
+            <div class="embed-container">
+                <iframe src="Propósito General.pdf" width="100%" height="600px"
+                    style="border: none; border-radius: 8px;"></iframe>
+            </div>
+        </section>
+
+        <!-- Módulo 2: Informe Escrito -->
+        <section id="informe" class="modulo">
+            <h2>Informe Escrito y Documentación</h2>
+
+            <div class="contenido-informe">
+                <h3>1. Sistematización de Experiencia</h3>
+                <p>Resumen de los pasos, el trabajo realizado y los resultados obtenidos al crear el sistema contable
+                    para el Emprendimiento MJ.</p>
+                <a href="SISTEMATIZACION DE experiencias.pdf" class="btn-descarga">💾 Descargar Sistematización de
+                    Experiencia (PDF)</a>
+            </div>
+
+            <br>
+
+            <div class="contenido-informe">
+                <h3>2. Vinculacion con la Comunidad</h3>
+                <p>Registro de la visita, charla y asesoría contables brindadas como apoyo directo a la comunidad.
+                </p>
+                <a href="INFORME VINCULACION.pdf" class="btn-descarga">💾 Descargar Informe de Servicio Comunitario
+                    (PDF)</a>
+            </div>
+        </section>
+
+        <!-- Módulo 3: Visitas y Asesorías -->
+        <section id="visitas" class="modulo">
+            <h2>Evidencias: Visitas y Asesorías</h2>
+
+            <div class="grid-evidencias">
+                <!-- Foto 1: Asesoria.jpeg -->
+                <div class="tarjeta-evidencia">
+                    <a href="#img-asesoria-base">
+                        <img src="Asesoria.jpeg" alt="Asesoría">
+                    </a>
+                    <div class="tarjeta-info">
+                        <h3>Asesoría</h3>
+                    </div>
+                </div>
+
+                <!-- Foto 2: Asesoria1.jpeg -->
+                <div class="tarjeta-evidencia">
+                    <a href="#img-asesoria1">
+                        <img src="Asesoria1.jpeg" alt="Asesoría">
+                    </a>
+                    <div class="tarjeta-info">
+                        <h3>Asesoría</h3>
+                    </div>
+                </div>
+
+                <!-- Foto 3: Visita1.jpeg -->
+                <div class="tarjeta-evidencia">
+                    <a href="#img-visita1">
+                        <img src="Visita1.jpeg" alt="Visita">
+                    </a>
+                    <div class="tarjeta-info">
+                        <h3>Visita</h3>
+                    </div>
+                </div>
+
+                <!-- Foto 4: Visita1-1.jpeg -->
+                <div class="tarjeta-evidencia">
+                    <a href="#img-visita1-1">
+                        <img src="Visita1-1.jpeg" alt="Expoferia">
+                    </a>
+                    <div class="tarjeta-info">
+                        <h3>Expoferia</h3>
+                    </div>
+                </div>
+
+                <!-- Foto 5: Vinculacion1.jpeg -->
+                <div class="tarjeta-evidencia">
+                    <a href="#img-vinculacion1">
+                        <img src="Vinculacion1.jpeg" alt="Vinculación con la comunidad">
+                    </a>
+                    <div class="tarjeta-info">
+                        <h3>Vinculación con la comunidad</h3>
+                    </div>
+                </div>
+
+                <!-- Foto 6: Vinculacion2.jpeg -->
+                <div class="tarjeta-evidencia">
+                    <a href="#img-vinculacion2">
+                        <img src="Vinculacion2.jpeg" alt="Vinculación con la comunidad">
+                    </a>
+                    <div class="tarjeta-info">
+                        <h3>Vinculación con la comunidad</h3>
+                    </div>
+                </div>
+
+                <!-- Foto 7: Vinculacion3.jpeg -->
+                <div class="tarjeta-evidencia">
+                    <a href="#img-vinculacion3">
+                        <img src="Vinculacion3.jpeg" alt="Vinculación con la comunidad">
+                    </a>
+                    <div class="tarjeta-info">
+                        <h3>Vinculación con la comunidad</h3>
+                    </div>
+                </div>
+
+                <!-- Foto 8: Vinculacion4.jpeg -->
+                <div class="tarjeta-evidencia">
+                    <a href="#img-vinculacion4">
+                        <img src="Vinculacion4.jpeg" alt="Vinculación con la comunidad">
+                    </a>
+                    <div class="tarjeta-info">
+                        <h3>Vinculación con la comunidad</h3>
+                    </div>
+                </div>
+            </div> <!-- AQUÍ CIERRA EL GRID DE LAS 8 FOTOS -->
+
+            <!-- Lightboxes para Zoom -->
+            <div id="img-asesoria-base" class="lightbox-overlay">
+                <a href="#visitas" class="lightbox-close">✕ Cerrar</a>
+                <img src="Asesoria.jpeg" alt="Asesoría Grande" class="lightbox-img">
+            </div>
+
+            <div id="img-asesoria1" class="lightbox-overlay">
+                <a href="#visitas" class="lightbox-close">✕ Cerrar</a>
+                <img src="Asesoria1.jpeg" alt="Asesoría Grande" class="lightbox-img">
+            </div>
+
+            <div id="img-visita1" class="lightbox-overlay">
+                <a href="#visitas" class="lightbox-close">✕ Cerrar</a>
+                <img src="Visita1.jpeg" alt="Visita Grande" class="lightbox-img">
+            </div>
+
+            <div id="img-visita1-1" class="lightbox-overlay">
+                <a href="#visitas" class="lightbox-close">✕ Cerrar</a>
+                <img src="Visita1-1.jpeg" alt="Expoferia Grande" class="lightbox-img">
+            </div>
+
+            <div id="img-vinculacion1" class="lightbox-overlay">
+                <a href="#visitas" class="lightbox-close">✕ Cerrar</a>
+                <img src="Vinculacion1.jpeg" alt="Vinculación con la comunidad Grande" class="lightbox-img">
+            </div>
+
+            <div id="img-vinculacion2" class="lightbox-overlay">
+                <a href="#visitas" class="lightbox-close">✕ Cerrar</a>
+                <img src="Vinculacion2.jpeg" alt="Vinculación con la comunidad Grande" class="lightbox-img">
+            </div>
+
+            <div id="img-vinculacion3" class="lightbox-overlay">
+                <a href="#visitas" class="lightbox-close">✕ Cerrar</a>
+                <img src="Vinculacion3.jpeg" alt="Vinculación con la comunidad Grande" class="lightbox-img">
+            </div>
+
+            <div id="img-vinculacion4" class="lightbox-overlay">
+                <a href="#visitas" class="lightbox-close">✕ Cerrar</a>
+                <img src="Vinculacion4.jpeg" alt="Vinculación con la comunidad Grande" class="lightbox-img">
+            </div>
+        </section>
+
+
+        <!-- Módulo 4: Entrega del Producto (TÍTULOS CORREGIDOS A ENTREGA DE PRODUCTO) -->
+        <section id="entrega" class="modulo">
+            <h2>Evidencias: Entrega del Producto</h2>
+
+            <div class="grid-evidencias">
+                <!-- Entrega.jpeg -->
+                <div class="tarjeta-evidencia">
+                    <a href="#img-entrega-base">
+                        <img src="Entrega.jpeg" alt="Entrega de Producto">
+                    </a>
+                    <div class="tarjeta-info">
+                        <h3>Entrega de Producto</h3>
+                    </div>
+                </div>
+                <!-- Entrega1.jpeg -->
+                <div class="tarjeta-evidencia">
+                    <a href="#img-entrega1">
+                        <img src="Entrega1.jpeg" alt="Entrega de Producto">
+                    </a>
+                    <div class="tarjeta-info">
+                        <h3>Entrega de Producto</h3>
+                    </div>
+                </div>
+                <!-- Entrega1-2.jpeg -->
+                <div class="tarjeta-evidencia">
+                    <a href="#img-entrega1-2">
+                        <img src="Entrega1-2.jpeg" alt="Entrega de Producto">
+                    </a>
+                    <div class="tarjeta-info">
+                        <h3>Entrega de Producto</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div id="img-entrega-base" class="lightbox-overlay">
+                <a href="#entrega" class="lightbox-close">✕ Cerrar</a>
+                <img src="Entrega.jpeg" alt="Entrega de Producto Grande" class="lightbox-img">
+            </div>
+
+            <div id="img-entrega1" class="lightbox-overlay">
+                <a href="#entrega" class="lightbox-close">✕ Cerrar</a>
+                <img src="Entrega1.jpeg" alt="Entrega de Producto Grande" class="lightbox-img">
+            </div>
+
+            <div id="img-entrega1-2" class="lightbox-overlay">
+                <a href="#entrega" class="lightbox-close">✕ Cerrar</a>
+                <img src="Entrega1-2.jpeg" alt="Entrega de Producto Grande" class="lightbox-img">
+            </div>
+        </section>
+
+
+        <!-- Módulo 5: El Producto Final -->
+        <section id="producto" class="modulo">
+            <h2>El Producto Final</h2>
+            <div class="producto-flex">
+                <div class="producto-texto">
+                    <h3>¿En qué consiste el producto?</h3>
+                    <p>Es una herramienta en Excel completamente automatizada que permite registrar los ingresos y
+                        egresos diarios del negocio para controlar el dinero real en tiempo real, facilitando la toma de
+                        decisiones financieras de forma rápida y ordenada.</p>
+
+                    <br>
+                    <p><strong>Beneficios e impacto técnico:</strong></p>
+                    <ul>
+                        <li>Resolución efectiva del problema de control diario planteado.</li>
+                        <li>Generación dinámica de un <strong>Flujo de Efectivo</strong> y proyecciones financieras.
+                        </li>
+                        <li>Sustentabilidad operativa y fácil manejo mediante hojas de cálculo automatizadas del PNF en
+                            Contaduría Pública.</li>
+                    </ul>
+                    <br>
+                    <a href="FLUJO DE EFECTIVO PROYECTO (2) (1).xlsx" class="btn-descarga"
+                        style="background-color: #10b981;">📊 Descargar Herramienta Automatizada (Excel)</a>
+                </div>
+                <div class="producto-img">
+                    <a href="#img-producto-zoom">
+                        <img src="Entrega1-3.jpeg" alt="Entrega del Producto Final">
+                    </a>
+                </div>
+            </div>
